@@ -17,7 +17,7 @@ public class appmainabs6 {
 		System.out.println("Enter the Balance");
 		double Balance=sc.nextDouble();
 		sc.nextLine();
-		System.out.println("Enetr the minimum balance");
+		System.out.println("Enter the minimum balance");
 		double minbalance=sc.nextDouble();
 		sc.nextLine();
 		SavingsAccount savingsaccount=new SavingsAccount(accountno,holdrename,Balance,minbalance);
